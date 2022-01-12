@@ -81,21 +81,21 @@
             }
         }
 
-        button {
-            width: 150px;
-            height: 30px;
-            color: $mainColor;
-            background-color: #e2dcdc;
-            border: none;
-            border-radius: 10px;
-            font-weight: 500;
-            cursor: pointer;
+        // button {
+        //     width: 150px;
+        //     height: 30px;
+        //     color: $mainColor;
+        //     background-color: #e2dcdc;
+        //     border: none;
+        //     border-radius: 10px;
+        //     font-weight: 500;
+        //     cursor: pointer;
 
-            &:focus {
-                outline: none;
-            }
+        //     &:focus {
+        //         outline: none;
+        //     }
 
-        }
+        // }
 
         span{
             color: #e2dcdc;
