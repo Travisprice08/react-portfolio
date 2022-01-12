@@ -1,0 +1,126 @@
+@import "../../global.scss";
+
+.intro{
+    // background-color: teal;
+    background-color: #7f7c7c;
+    background-image: linear-gradient(0deg, #7f7c7c 0%, #ababae 50%, #e2dcdc 100%);
+    display: flex;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left{
+        flex: 0.5;
+        overflow: hidden;
+
+        .imgContainer{
+            width: 700px;
+            height: 550px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: inherit;
+
+            @include mobile {
+                align-items: center;
+            }
+
+            img{
+                height: 80%;
+                margin: 120px 130px 100px 150px;
+
+                @include mobile{
+                    height: 50%;
+                    margin: 0px 0px 150px 0px ;
+                }
+            }
+
+        }
+    }
+
+    .right{
+        flex: 0.5;
+        position: relative;
+        overflow: hidden;
+
+        .wrapper{
+            width: 100%;
+            height: 70%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 30px;
+
+                @include mobile {
+                    font-size: 25px;
+                }
+
+                span{
+                    font-size: inherit;
+                    color: white;
+                    // color: rgb(158, 27, 215);
+                }
+
+                .ityped-cursor{
+                    animation: blink 1s infinite;
+                }
+
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                }
+            }
+
+            a{
+                position: absolute;
+                bottom: 10px;
+                left: 40%;
+                
+                // .icon{
+                //     height: 75px;
+                //     width: 75px;
+                //     padding-left: 100px;
+                //     margin: 100px 50px 100px 300px;
+                //     display: flex;
+                //     align-items: center;
+                //     justify-content: center;
+                // }
+            }
+        }
+
+        .icon{
+            height: 75px;
+            width: 75px;
+            margin: 100px 50px 100px 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            // color: rgb(158, 27, 215);
+            animation: arrowBlink 2s infinite;
+        }
+
+        @keyframes arrowBlink {
+            100%{
+                opacity: 0;
+            }
+        }
+    }
+}
