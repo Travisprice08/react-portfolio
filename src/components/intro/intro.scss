@@ -46,6 +46,25 @@
         position: relative;
         overflow: hidden;
 
+        button {
+            width: 150px;
+            height: 30px;
+            margin: 5px;
+            color: $mainColor;
+            background-color: #e2dcdc;
+            border: none;
+            border-radius: 10px;
+            font-weight: 500;
+            cursor: pointer;
+            align-items: center;
+            justify-content: center;
+
+            &:focus {
+                outline: none;
+            }
+
+        }
+
         .wrapper{
             width: 100%;
             height: 70%;
