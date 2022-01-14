@@ -33,14 +33,6 @@ export default function Intro() {
                         I am experienced in <span ref={textRef}></span>
                     </h3>
                 </div>
-                <div className="button">
-                    <button>
-                        <a href="Files/TravisPrice_Resume.pdf" download>Download my CV</a>
-                    </button>
-                    <button>
-                        <a href="assets/CFCert.pdf" download>View my Certification</a>
-                    </button>
-                </div>
                 <a href="#about">
                     <KeyboardArrowDown className="icon" />
                 </a>

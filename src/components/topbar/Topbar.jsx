@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { PersonOutline, MailOutline } from "@material-ui/icons"
+import { PersonOutline, MailOutline, Description, School } from "@material-ui/icons"
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
@@ -13,7 +13,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <MailOutline className="icon" />
-                        <span>Travisprice08@gmail.com</span>
+                        <a href="mailto:Travisprice08@gmail.com?subject=Portfolio%20contact"><span>Travisprice08@gmail.com</span></a>
+                    </div>
+                    <div className="itemContainer">
+                        <Description className="icon" />
+                        <a href="Files/TravisPrice_Resume.pdf" download><span>Download my CV</span></a>
+                    </div>
+                    <div className="itemContainer">
+                        <School className="icon" />
+                        <a href="assets/FullStack.pdf"><span>Certification</span></a>
                     </div>
                 </div>
                 <div className="right">

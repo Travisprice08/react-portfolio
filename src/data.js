@@ -23,6 +23,15 @@ export const all = [
 
 ]
 
+export const certification = [
+    {
+        id: 1,
+        title: "CareerFoundry Certification",
+        img: "./assets/certification.png"
+        // img: <img src="assets/Pokedex.png"></img>
+    }
+]
+
 export const javaScriptApp = [
     {
         id: 1,
@@ -52,6 +61,7 @@ export const angularApp = [
     {
         id: 4,
         title: "Angular Movie App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/Angular.gif"
+        img: "https://travisprice08.github.io/CF-Portfolio/img/Angular.gif",
+        // url: "https://hardcore-lamport-748024.netlify.app/welcome"
     }
 ]
