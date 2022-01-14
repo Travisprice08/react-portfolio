@@ -6,7 +6,8 @@ import {
     javaScriptApp,
     reactApp,
     reactNativeApp,
-    angularApp
+    angularApp,
+    certification
 } from "../../data";
 
 export default function Work() {
@@ -16,6 +17,10 @@ export default function Work() {
         {
             id: "all",
             title: "All"
+        },
+        {
+            id: "certification",
+            title: "Full Stack Certification"
         },
         {
             id: "javaScript",
@@ -40,6 +45,9 @@ export default function Work() {
         switch (selected) {
             case "all":
                 setData(all);
+                break;
+            case "certification":
+                setData(certification);
                 break;
             case "javaScript":
                 setData(javaScriptApp);
