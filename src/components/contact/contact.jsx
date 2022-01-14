@@ -26,8 +26,8 @@ export default function Contact() {
                 <div className="container">
                     <a class="link" href="tel:+8165889395" target="_blank" rel="noopener noreferrer">
                         <img src="assets/phone.png" class="icon" alt="Phone symbol" /></a>
-                    <a class="ink" href="mailto:Travisprice08@gmail.com?subject=Portfolio%20contact" target="_blank" rel="noopener noreferrer">
-                        <img src="assets/gmail.svg" class="icon" alt="Email icon" /></a>
+                    {/* <a class="ink" href="mailto:Travisprice08@gmail.com?subject=Portfolio%20contact" target="_blank" rel="noopener noreferrer">
+                        <img src="assets/gmail.svg" class="icon" alt="Email icon" /></a> */}
                     <a class="link" href="https://github.com/Travisprice08" target="_blank" rel="noopener noreferrer">
                         <img src="assets/github.svg" class="icon" alt="Github logo" /></a>
                     <a class="link" href="https://www.linkedin.com/in/travis-price-21b4ab1a1/" target="_blank" rel="noopener noreferrer">
