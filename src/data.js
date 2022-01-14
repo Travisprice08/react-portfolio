@@ -52,6 +52,7 @@ export const angularApp = [
     {
         id: 4,
         title: "Angular Movie App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/Angular.gif"
+        img: "https://travisprice08.github.io/CF-Portfolio/img/Angular.gif",
+        // url: "https://hardcore-lamport-748024.netlify.app/welcome"
     }
 ]
