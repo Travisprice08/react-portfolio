@@ -17,7 +17,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                     <div className="itemContainer">
                         <Description className="icon" />
-                        <a href="Files/TravisPrice_Resume.pdf" download><span>Download my CV</span></a>
+                        <a href="assets/TravisPrice_Resume.pdf" download><span>Download my CV</span></a>
                     </div>
                     <div className="itemContainer">
                         <School className="icon" />

@@ -9,7 +9,7 @@ export default function About() {
             id: "1",
             // icon: "./assets/mobile.png",
             title: "About Me",
-            desc: "My name is Travis, I am 31 years old and live in San Diego, CA. Originally from Kansas City, MO.",
+            desc: "I am 31 years old and live in San Diego, CA. Originally from Kansas City, MO.",
             img: "./assets/Hobby.png",
         },
         {
@@ -17,7 +17,7 @@ export default function About() {
             // icon: "./assets/globe.png",
             title: "Road to WebDev",
             desc:
-                "I moved from Kansas City to San Diego in 2018 and was forced out of my confort zone to meet new friends",
+                "I moved from Kansas City to San Diego in 2018 and was forced out of my confort zone to meet new friends.",
             img: "./assets/Road.png",
         },
         {
@@ -25,7 +25,7 @@ export default function About() {
             // icon: "./assets/globe.png",
             title: "Road to WebDev",
             desc:
-                "One of the outlets I used for this was a group here in San Diego called The San DiAsians. Everyone I met seemed to be a software engineer.",
+                "Eventually, I joined a group called “The San DiAsians”. Everyone I seem to meet was a software engineer",
             img: "./assets/San.png",
         },
         {
@@ -33,7 +33,7 @@ export default function About() {
             // icon: "./assets/globe.png",
             title: "Road to WebDev",
             desc:
-                "My girlfriend began to develop an interest in web development and encouraged me to look into it aswell. It wasn't until the start of Covid, being laid off work, and seeing my software engineering friends thriving when it really began to command my attention.",
+                "My partner began to develop an interest in web development and encouraged me to look into it aswell. It wasn't until the start of Covid, being laid off work, and seeing my software engineering friends thriving when it really began to command my attention.",
             img: "./assets/Gf.png",
         },
         {
@@ -41,7 +41,7 @@ export default function About() {
             // icon: "./assets/globe.png",
             title: "Road to WebDev",
             desc:
-                "With the encouragment and push from my girlfriend and friends, I decided to leave my comfort zone and started the full stack webdevelopment course by CareerFoundry.",
+                "With the encouragment and push from my partner and friends, I decided to leave my comfort zone and started the full stack web development course by CareerFoundry.",
             img: "./assets/Support.png",
         },
 

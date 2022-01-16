@@ -2,8 +2,8 @@
 
 .work{
     // background-color: rgb(101, 15, 214);
-    background-color: #474646;
-    background-image: linear-gradient(0deg, #474646 0%, #565555 50%, #5e5d5d 100%);
+    background-color: #7f7c7c;
+    // background-image: linear-gradient(0deg, #474646 0%, #565555 50%, #5e5d5d 100%);
     display: flex;
     flex-direction: column;      
     align-items: center;
@@ -17,7 +17,8 @@
     }
 
     ul{
-        color: #e2dcdc;
+        // color: #e2dcdc;
+        color: white;
         margin: 10px;
         padding: 0;
         list-style: none;
