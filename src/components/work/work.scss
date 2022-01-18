@@ -27,6 +27,7 @@
         @include mobile {
             flex-wrap: wrap;
             justify-content: center;
+            margin: 0;
         }
     }
 
@@ -39,9 +40,15 @@
         flex-wrap: wrap;
 
         @include mobile {
-            width: 80%;
+            width: 100%;
             display: grid;
             overflow-y: hidden;
+        }
+
+        a{
+            @include mobile{
+                height: 80%;
+            }
         }
 
         .item{
@@ -59,7 +66,7 @@
             cursor: pointer;
 
             @include mobile {
-                width: 115px;
+                width: 110px;
                 height: 95px;
             }
 
@@ -75,8 +82,8 @@
                 z-index: 1;
                 // align-items: center;
 
-                @include mobile {
-                   object-fit: fill;                 
+                @include mobile { 
+                   border-radius: 20px;              
                 }
                 
             }

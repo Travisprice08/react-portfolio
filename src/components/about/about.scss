@@ -10,10 +10,6 @@
     justify-content: center;
     position: relative;
 
-    @include mobile {
-        overflow: hidden;
-    }
-
     .arrow{
         height: 50px;
         color: #e2dcdc;
