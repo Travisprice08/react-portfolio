@@ -10,11 +10,19 @@
     justify-content: center;
     position: relative;
 
+    @include mobile {
+        overflow: hidden;
+    }
+
     .arrow{
         height: 50px;
         color: #e2dcdc;
         position: absolute;
         cursor: pointer;
+
+        @include mobile{
+            display: none;
+        }
 
         &.left{
             left: 100px;
@@ -33,6 +41,12 @@
         left: 0;
         transition: all 1s ease-out;
 
+        @include mobile {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+        }
+
         .container{
             width: 100vw;
             display: flex;
@@ -47,6 +61,12 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
+
+                @include mobile {
+                    width: 85%;
+                    height: 100px;
+                    margin: 5px 0;
+                }
 
                 .left{
                     flex: 4;
@@ -64,6 +84,10 @@
 
                         h3{
                             font-size: 15px;
+
+                            @include mobile {
+                                font-size: 10px;
+                            }
                         }
 
                         .imgContainer{

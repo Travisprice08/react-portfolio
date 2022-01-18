@@ -39,6 +39,10 @@
         justify-content: center;
         flex-wrap: wrap;
 
+        @include mobile {
+            width: 110%;
+        }
+
         .link{
         width: 15%;
         height: 15%;

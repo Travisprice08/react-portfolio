@@ -39,7 +39,9 @@
         flex-wrap: wrap;
 
         @include mobile {
-            width: 100%;
+            width: 80%;
+            display: grid;
+            overflow-y: hidden;
         }
 
         .item{
@@ -57,8 +59,8 @@
             cursor: pointer;
 
             @include mobile {
-                width: 150px;
-                height: 120px;
+                width: 115px;
+                height: 95px;
             }
 
             h3{

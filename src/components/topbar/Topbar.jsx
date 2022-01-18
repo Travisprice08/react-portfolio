@@ -12,15 +12,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                         <span> 816-588-9395 </span>
                     </div>
                     <div className="itemContainer">
-                        <MailOutline className="icon" />
+                        <a href="mailto:Travisprice08@gmail.com?subject=Portfolio%20contact"><MailOutline className="icon" /></a>
                         <a href="mailto:Travisprice08@gmail.com?subject=Portfolio%20contact"><span>Travisprice08@gmail.com</span></a>
                     </div>
                     <div className="itemContainer">
-                        <Description className="icon" />
+                        <a href="assets/TravisPrice_Resume.pdf" download><Description className="icon" /></a>
                         <a href="assets/TravisPrice_Resume.pdf" download><span>Download my CV</span></a>
                     </div>
                     <div className="itemContainer">
-                        <School className="icon" />
+                        <a href="assets/FullStack.pdf"><School className="icon" /></a>
                         <a href="assets/FullStack.pdf"><span>Certification</span></a>
                     </div>
                 </div>
