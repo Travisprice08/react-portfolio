@@ -74,6 +74,10 @@
                 object-fit: cover;
                 z-index: 1;
                 // align-items: center;
+
+                @include mobile {
+                   object-fit: fill;                 
+                }
                 
             }
 

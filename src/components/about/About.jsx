@@ -17,7 +17,7 @@ export default function About() {
             // icon: "./assets/globe.png",
             title: "Road to WebDev",
             desc:
-                "I moved from Kansas City to San Diego in 2018 and was forced out of my confort zone to meet new friends.",
+                "I moved from Kansas City to San Diego in 2018 and was forced out of my comfort zone to meet new friends.",
             img: "./assets/Road.png",
         },
         {
@@ -25,7 +25,7 @@ export default function About() {
             // icon: "./assets/globe.png",
             title: "Road to WebDev",
             desc:
-                "Eventually, I joined a group called “The San DiAsians”. Everyone I seem to meet was a software engineer",
+                "Eventually, I joined a group called “The San DiAsians”. Everyone I seem to meet was a software engineer.",
             img: "./assets/San.png",
         },
         {

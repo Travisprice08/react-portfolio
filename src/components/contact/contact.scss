@@ -40,7 +40,8 @@
         flex-wrap: wrap;
 
         @include mobile {
-            width: 110%;
+            width: 80%;
+            height: 300px;
         }
 
         .link{
