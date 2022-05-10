@@ -2,23 +2,32 @@ export const all = [
     {
         id: 1,
         title: "Pokedex App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/Pokedex.png"
-        // img: <img src="assets/Pokedex.png"></img>
+        img: "https://travisprice08.github.io/CF-Portfolio/img/Pokedex.png",
+        url: "https://travisprice08.github.io/Pokedex-App/"
     },
     {
         id: 2,
         title: "React Movie App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/React.gif"
+        img: "https://travisprice08.github.io/CF-Portfolio/img/React.gif",
+        url: "https://cocky-goodall-4c9015.netlify.app/"
     },
     {
         id: 3,
-        title: "Native Chat App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/Chat1.png"
+        title: "5th Axis App",
+        img: "./assets/FADB.gif",
+        url: "https://github.com/Travisprice08/fa-db"
     },
     {
         id: 4,
+        title: "Native Chat App",
+        img: "https://travisprice08.github.io/CF-Portfolio/img/Chat1.png",
+        url: "https://github.com/Travisprice08/Chat-App"
+    },
+    {
+        id: 5,
         title: "Angular Movie App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/Angular.gif"
+        img: "https://travisprice08.github.io/CF-Portfolio/img/Angular.gif",
+        url: "https://hardcore-lamport-748024.netlify.app"
     }
 
 ]
@@ -28,7 +37,6 @@ export const certification = [
         id: 1,
         title: "CareerFoundry Certification",
         img: "./assets/certification.png"
-        // img: <img src="assets/Pokedex.png"></img>
     }
 ]
 
@@ -36,8 +44,8 @@ export const javaScriptApp = [
     {
         id: 1,
         title: "Pokedex App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/Pokedex.png"
-        // img: <img src="assets/Pokedex.png"></img>
+        img: "https://travisprice08.github.io/CF-Portfolio/img/Pokedex.png",
+        url: "https://travisprice08.github.io/Pokedex-App/",
     }
 ]
 
@@ -45,23 +53,31 @@ export const reactApp = [
     {
         id: 2,
         title: "React Movie App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/React.gif"
+        img: "https://travisprice08.github.io/CF-Portfolio/img/React.gif",
+        url: "https://cocky-goodall-4c9015.netlify.app/"
+    },
+    {
+        id: 3,
+        title: "5th Axis App",
+        img: "./assets/FADB.gif",
+        url: "https://github.com/Travisprice08/fa-db"
     }
 ]
 
 export const reactNativeApp = [
     {
-        id: 3,
+        id: 4,
         title: "Native Chat App",
-        img: "https://travisprice08.github.io/CF-Portfolio/img/Chat1.png"
+        img: "https://travisprice08.github.io/CF-Portfolio/img/Chat1.png",
+        url: "https://github.com/Travisprice08/Chat-App"
     }
 ]
 
 export const angularApp = [
     {
-        id: 4,
+        id: 5,
         title: "Angular Movie App",
         img: "https://travisprice08.github.io/CF-Portfolio/img/Angular.gif",
-        // url: "https://hardcore-lamport-748024.netlify.app/welcome"
+        url: "https://hardcore-lamport-748024.netlify.app"
     }
 ]
