@@ -1,9 +1,9 @@
 @import "../../global.scss";
 
-.menu{
+.menu {
     width: 300px;
     height: 100vh;
-    background-color: #ababae ;
+    background-color: $accentColor;
     position: fixed;
     top: 0;
     right: -300px;
@@ -14,11 +14,11 @@
     justify-content: center;
     transition: all 1.5s ease;
 
-    &.active{
+    &.active {
         right: 0;
     }
 
-    ul{
+    ul {
         margin: 0;
         padding: 0;
         list-style: none;
@@ -26,15 +26,16 @@
         font-weight: 400;
         color: $mainColor;
 
-        li{
+        li {
             margin-bottom: 30px;
-            a{
+
+            a {
                 font-size: inherit;
                 color: inherit;
                 text-decoration: none;
             }
 
-            &:hover{
+            &:hover {
                 font-weight: 500;
             }
         }

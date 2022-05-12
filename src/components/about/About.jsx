@@ -9,7 +9,7 @@ export default function About() {
             id: "1",
             // icon: "./assets/mobile.png",
             title: "About Me",
-            desc: "I am 31 years old and live in San Diego, CA. Originally from Kansas City, MO.",
+            desc: "I am 32 years old and live in San Diego, CA. Originally from Kansas City, MO.",
             img: "./assets/Hobby.png",
         },
         {

@@ -1,9 +1,12 @@
-$mainColor: #474646;
+$mainColor: #191919;
+$accentColor: #EEEEEE;
+$redAccent: #C84B31;
+
 
 $width: 768px;
 
 @mixin mobile {
-    @media (max-width: #{$width}){
+    @media (max-width: #{$width}) {
         @content
     }
 }

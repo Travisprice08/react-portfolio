@@ -1,23 +1,22 @@
 @import "../../global.scss";
 
-.intro{
-    // background-color: teal;
-    background-color: #7f7c7c;
-    // background-image: linear-gradient(0deg, #7f7c7c 0%, #ababae 50%, #e2dcdc 100%);
+.intro {
+    // background-color: #7f7c7c;
+    background-color: $mainColor;
     display: flex;
 
-    @include mobile{
+    @include mobile {
         flex-direction: column;
         align-items: center;
     }
 
-    .left{
+    .left {
         flex: 0.5;
         overflow: hidden;
 
-        .imgContainer{
-            width: 700px;
-            height: 700px;
+        .imgContainer {
+            width: 100%;
+            height: 130%;
             border-radius: 50%;
             display: flex;
             align-items: center;
@@ -26,24 +25,27 @@
 
             @include mobile {
                 align-items: center;
+                width: 85%;
+                height: 120%;
+                margin: 70px 20px;
             }
 
-            img{
-                width: 100%;
-                height: 70%;
-                margin: 140px 100px 100px 120px;
+            img {
+                width: 90%;
+                height: 60%;
+                margin: 140px 130px 390px 120px;
 
-                @include mobile{
-                    width: 40%;
-                    height: 45%;
-                    margin: 0px 0px 300px 0px ;
+                @include mobile {
+                    width: 85%;
+                    height: 60%;
+                    margin: 120px 0px 300px 0px;
                 }
             }
 
         }
     }
 
-    .right{
+    .right {
         flex: 0.5;
         position: relative;
         overflow: hidden;
@@ -67,7 +69,7 @@
 
         }
 
-        .wrapper{
+        .wrapper {
             width: 100%;
             height: 70%;
             padding-left: 50px;
@@ -79,45 +81,60 @@
                 margin: 5px 15px;
             }
 
-            h1{
-                font-size: 60px;
+            h1 {
+                font-size: 100px;
                 margin: 10px 0;
+                color: $accentColor;
+
+                @include mobile {
+                    font-size: 60px;
+                }
             }
-            h2{
+
+            h2 {
                 font-size: 35px;
+                color: $accentColor;
+
+                @include mobile {
+                    font-size: 20px;
+                }
             }
-            h3{
-                font-size: 30px;
+
+            h3 {
+                font-size: 40px;
+                color: $accentColor;
 
                 @include mobile {
                     font-size: 20px;
                 }
 
-                span{
+                span {
                     font-size: inherit;
-                    color: white;
+                    color: $redAccent;
                     // color: rgb(158, 27, 215);
                 }
 
-                .ityped-cursor{
+                .ityped-cursor {
                     animation: blink 1s infinite;
+                    color: $accentColor;
                 }
 
                 @keyframes blink {
-                    50%{
+                    50% {
                         opacity: 1;
                     }
-                    100%{
+
+                    100% {
                         opacity: 0;
                     }
                 }
             }
 
-            a{
+            a {
                 position: absolute;
                 bottom: 10px;
                 left: 40%;
-                
+
                 // .icon{
                 //     height: 75px;
                 //     width: 75px;
@@ -130,7 +147,7 @@
             }
         }
 
-        .icon{
+        .icon {
             height: 75px;
             width: 75px;
             margin: 50px 50px 100px 300px;
@@ -147,7 +164,7 @@
         }
 
         @keyframes arrowBlink {
-            100%{
+            100% {
                 opacity: 0;
             }
         }

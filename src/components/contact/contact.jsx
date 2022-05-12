@@ -11,12 +11,12 @@ export default function Contact() {
         // emailjs.sendForm(`gmail`, apiKey.TEMPLATE_ID, e.target, apiKey.USER_ID)
     }
     return (
-        <div className="contact" id="contact">;
+        <div className="contact" id="contact">
             {/* <div className="left">
                 <img src="assets/Shake.png" alt="" />
             </div> */}
             <div className="right">
-                <h2>Connect with me</h2>
+                <h1>Connect with me</h1>
                 {/* <form onSubmit={handleSubmit}>
                     <input type="text" placeholder="Email" />
                     <textarea placeholder="Message"></textarea>

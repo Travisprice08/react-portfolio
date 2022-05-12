@@ -1,63 +1,63 @@
 @import "../../global.scss";
 
-.contact{
-    // background-color: rgb(221, 55, 55);
-    background-color: #7f7c7c;
-    // background-image: linear-gradient(180deg, #474646 0%, #2d2c2c 50%, #1e1e1e 100%);
+.contact {
+    // background-color: #7f7c7c;
+    background-color: $mainColor;
     display: flex;
 
     @include mobile {
         flex-direction: column;
     }
 
-    .left{
+    .left {
         flex: 1;
 
-        .img{
+        .img {
             height: 100%;
         }
     }
 
-    .right{
+    .right {
         flex: 1;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        h2{
+        h1 {
             font-size: 30px;
-            // color: #e2dcdc;
+            color: $accentColor;
         }
 
-        .container{
+        .container {
 
-        width: 70%;
-        height: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
+            width: 70%;
+            height: 80%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
 
-        @include mobile {
-            width: 80%;
-            height: 200px;
+            @include mobile {
+                width: 80%;
+                height: 200px;
+            }
+
+            .link {
+                width: 10%;
+                height: 15%;
+                // margin: 5px;
+                display: flex;
+
+                @include mobile {
+                    width: 10%;
+                    display: inherit;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+            }
         }
-
-        .link{
-        width: 10%;
-        height: 15%;
-        // margin: 5px;
-        display: flex;
-        // align-items: center;
-        // justify-content: center;
-        // flex-wrap: wrap;
-
-        @include mobile {
-            width: 10%;                        
-        }
-        }
-    }
 
         // form{
         //     width: 70%;
@@ -106,7 +106,7 @@
 
         // }
 
-        span{
+        span {
             color: #e2dcdc;
         }
     }

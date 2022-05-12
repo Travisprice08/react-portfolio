@@ -1,24 +1,24 @@
 @import "../../global.scss";
 
-.work{
-    // background-color: rgb(101, 15, 214);
-    background-color: #7f7c7c;
-    // background-image: linear-gradient(0deg, #474646 0%, #565555 50%, #5e5d5d 100%);
+.work {
+    // background-color: #7f7c7c;
+    background-color: $mainColor;
     display: flex;
-    flex-direction: column;      
+    flex-direction: column;
     align-items: center;
-    
-    h1{
+
+    h1 {
         font-size: 50px;
+        color: $accentColor;
+        margin-top: 15px;
 
         @include mobile {
             font-size: 20px;
         }
     }
 
-    ul{
-        // color: #e2dcdc;
-        color: white;
+    ul {
+        color: $accentColor;
         margin: 10px;
         padding: 0;
         list-style: none;
@@ -31,7 +31,7 @@
         }
     }
 
-    .container{
+    .container {
         width: 70%;
         height: 80%;
         display: flex;
@@ -45,15 +45,16 @@
             overflow-y: hidden;
         }
 
-        a{
-            @include mobile{
-                height: 80%;
+        a {
+            @include mobile {
+                height: 90%;
+                overflow-y: hidden;
             }
         }
 
-        .item{
-            width: 300px;
-            height: 190px;
+        .item {
+            width: 370px;
+            height: 290px;
             border-radius: 20px;
             border: 1px solid #e2dcdc;
             margin: 10px 20px;
@@ -66,31 +67,33 @@
             cursor: pointer;
 
             @include mobile {
-                width: 110px;
-                height: 95px;
+                width: 190px;
+                height: 100px;
+                margin: auto;
             }
 
-            h3{
+            h3 {
                 position: absolute;
                 font-size: 20px;
             }
 
-            img{
+            img {
                 width: 100%;
                 height: 100%;
                 object-fit: cover;
                 z-index: 1;
                 // align-items: center;
 
-                @include mobile { 
-                   border-radius: 20px;              
+                @include mobile {
+                    border-radius: 20px;
                 }
-                
+
             }
 
-            &:hover{
+            &:hover {
                 background-color: $mainColor;
-                img{
+
+                img {
                     opacity: 0.2;
                     z-index: 0;
                 }
