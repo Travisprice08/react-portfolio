@@ -2,8 +2,8 @@
 
 .work{
     // background-color: rgb(101, 15, 214);
-    background-color: #474646;
-    background-image: linear-gradient(0deg, #474646 0%, #565555 50%, #5e5d5d 100%);
+    background-color: #7f7c7c;
+    // background-image: linear-gradient(0deg, #474646 0%, #565555 50%, #5e5d5d 100%);
     display: flex;
     flex-direction: column;      
     align-items: center;
@@ -17,7 +17,8 @@
     }
 
     ul{
-        color: #e2dcdc;
+        // color: #e2dcdc;
+        color: white;
         margin: 10px;
         padding: 0;
         list-style: none;
@@ -26,6 +27,7 @@
         @include mobile {
             flex-wrap: wrap;
             justify-content: center;
+            margin: 0;
         }
     }
 
@@ -39,6 +41,14 @@
 
         @include mobile {
             width: 100%;
+            display: grid;
+            overflow-y: hidden;
+        }
+
+        a{
+            @include mobile{
+                height: 80%;
+            }
         }
 
         .item{
@@ -56,8 +66,8 @@
             cursor: pointer;
 
             @include mobile {
-                width: 150px;
-                height: 120px;
+                width: 110px;
+                height: 95px;
             }
 
             h3{
@@ -71,6 +81,10 @@
                 object-fit: cover;
                 z-index: 1;
                 // align-items: center;
+
+                @include mobile { 
+                   border-radius: 20px;              
+                }
                 
             }
 

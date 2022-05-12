@@ -3,8 +3,8 @@
 .about{
     // background-color: #737070;
     // background-image: linear-gradient(0deg, #737070 0%, #7b7878 50%, #989595 100%);
-    background-color: #5e5d5d;
-    background-image: linear-gradient(0deg, #5e5d5d 0%, #737171 50%, #7f7c7c 100%);
+    background-color: #7f7c7c;
+    // background-image: linear-gradient(0deg, #5e5d5d 0%, #737171 50%, #7f7c7c 100%);
     display: flex;
     align-items: center;    
     justify-content: center;
@@ -15,6 +15,10 @@
         color: #e2dcdc;
         position: absolute;
         cursor: pointer;
+
+        @include mobile{
+            display: none;
+        }
 
         &.left{
             left: 100px;
@@ -33,6 +37,12 @@
         left: 0;
         transition: all 1s ease-out;
 
+        @include mobile {
+            height: 100vh;
+            flex-direction: column;
+            justify-content: center;
+        }
+
         .container{
             width: 100vw;
             display: flex;
@@ -48,6 +58,12 @@
                 align-items: center;
                 justify-content: center;
 
+                @include mobile {
+                    width: 95%;
+                    height: 140px;
+                    margin: 5px 0;
+                }
+
                 .left{
                     flex: 4;
                     height: 80%;
@@ -57,13 +73,21 @@
 
                     .leftContainer{
                         width: 90%;
-                        height: 70%;
+                        height: 100%;
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
 
+                        @include mobile {
+                                    
+                        }
+
                         h3{
                             font-size: 15px;
+
+                            @include mobile {
+                                font-size: 8.5px;
+                            }
                         }
 
                         .imgContainer{
@@ -99,6 +123,10 @@
 
                     img {
                         width: 400px;
+
+                        @include mobile {
+                            width: 85%;   
+                        }
                     }
                 }
 
