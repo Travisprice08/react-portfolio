@@ -6,7 +6,7 @@ import {
     javaScriptApp,
     reactApp,
     reactNativeApp,
-    angularApp,
+    // angularApp,
     certification
 } from "../../data";
 
@@ -34,10 +34,10 @@ export default function Work() {
             id: "reactNative",
             title: "React Native"
         },
-        {
-            id: "angular",
-            title: "Angular"
-        },
+        // {
+        //     id: "angular",
+        //     title: "Angular"
+        // },
     ];
 
     useEffect(() => {
@@ -58,9 +58,9 @@ export default function Work() {
             case "reactNative":
                 setData(reactNativeApp);
                 break;
-            case "angular":
-                setData(angularApp);
-                break;
+            // case "angular":
+            //     setData(angularApp);
+            //     break;
             default:
                 setData(all);
         }
@@ -85,6 +85,7 @@ export default function Work() {
                         <div className="item">
                             <img src={d.img} alt="" />
                             <h3>{d.title}</h3>
+                            <p>{d.desc}</p>
                         </div>
                     </a>
                 ))}
