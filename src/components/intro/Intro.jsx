@@ -30,7 +30,7 @@ export default function Intro() {
                         I am a <span>Web Developer</span>
                     </h3>
                     <h3>
-                        I am experienced in <span ref={textRef}></span>
+                        I have experience in <span ref={textRef}></span>
                     </h3>
                 </div>
                 <a href="#about">
